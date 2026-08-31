@@ -4,4 +4,4 @@ data:
     - media_player.echo_dot_majed
   data:
     type: tts
-  message: <audio src="https://raw.githubusercontent.com/majedramlawi/my_api/master/lahjaty-demo%20(49)%20(1).mp3"/>
+  message: <audio src="https://raw.githubusercontent.com/majedramlawi/home-assistant-media/main/announcements/Diper_01.mp3"/>
