@@ -1,1 +1,7 @@
-this is a testing
+action: notify.alexa_media
+data:
+  target:
+    - media_player.echo_dot_majed
+  data:
+    type: tts
+  message: <audio src="https://raw.githubusercontent.com/majedramlawi/my_api/master/lahjaty-demo%20(49)%20(1).mp3"/>
