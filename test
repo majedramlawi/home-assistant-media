@@ -5,3 +5,14 @@ data:
   data:
     type: tts
   message: <audio src="https://raw.githubusercontent.com/majedramlawi/home-assistant-media/main/announcements/Diper_01.mp3"/>
+
+-------------------------------------------------------------------------------------------------------------------------------
+in search Use git_announcement.play:
+
+action: git_announcement.play
+data:
+  category: Welcome home
+  target:
+    - media_player.echo_show_11_majed
+  chime: true
+  fallback_message: "Welcome home!"
